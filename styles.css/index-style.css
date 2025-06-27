@@ -1,0 +1,88 @@
+body {
+        background-color: black;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        padding: 30px;
+      }
+      .python-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        flex-wrap: wrap;
+      }
+      .python-container img {
+        width: 200px;
+        border-radius: 50px;
+      }
+
+      .header-container{
+       font-size: 25px;
+       margin-top: 0;
+        color: aliceblue;
+        font-family: Arial;
+        padding-left: 30px;
+        font-weight: bold;
+       
+      }
+
+      .header-container2 {
+        margin-top: 0;
+        color: aliceblue;
+        font-family: Arial;
+        padding-left: 30px;
+        
+      }
+      .header-container3{
+        margin-top: 0;
+        color: aliceblue;
+        font-family: Arial;
+        padding-left: 30px;
+        font-size: 25px;
+      }
+
+
+      p{
+        color: aliceblue;
+    
+      }
+
+      .fonts-container{
+        padding-left: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .fonts-container2{
+        padding-left: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 25px;
+      }
+
+      .fonts-container3{
+        padding-left: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 25px;
+      }
+
+      ul{
+        color: aliceblue;
+        padding-left: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      span{
+        text-decoration: underline;
+      }

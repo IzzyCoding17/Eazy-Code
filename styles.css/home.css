@@ -1,0 +1,183 @@
+body {
+        margin: 0;
+        font-family: "Seogoe UI", sans-serif;
+        background-color: black;
+        color: blue;
+      }
+      h1{
+        color: aliceblue;
+        font-weight: bold;
+      }
+      p{
+        color: aliceblue;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Arial;
+      }
+      header {
+        background-color: rgb(75, 75, 143);
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #333;
+      }
+      nav a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        background-color: #333;
+      }
+
+      .logo-container {
+        padding: 30px 0;
+        padding-top: 160px;
+        padding-bottom: 200px;
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #4fc3f7;
+        margin: 0 auto;
+      }
+
+      .language-grid {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 20px;
+      }
+
+      .language-grid img{
+        border-radius: 20px;
+      }
+
+      .lang-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+      }
+
+      .lang-item img {
+        width: 70px;
+        height: 70px;
+        background: 50%;
+        object-fit: cover;
+        
+    
+      }
+      
+      .lang-item span a{
+          color: #ccc;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      .lang-item span {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: Arial;
+        color: #ccc;
+      }
+
+
+
+      .course-detail {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .course-detail h2 {
+        margin-bottom: 10px;
+        font-size: 2.5em;
+      }
+
+      .course-detail p {
+        font-size: 1.1em;
+        color: #ccc;
+        line-height: 1.6em;
+        text-align: center;
+      }
+      .topics {
+        margin-top: 30px;
+        text-align: left;
+      }
+
+      .topics h3 {
+        color: #4fc3f7;
+      }
+
+      .topics.js h3 {
+        color: f7df1e;
+      }
+
+      .topics ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .topics li {
+        margin-bottom: 10px;
+        background-color: #1e1e1e;
+        padding: 10px 15px;
+        border-left: 4px solid #4fc3f7;
+        border-radius: 4px;
+      }
+
+      .topics.js li {
+        border-left-color: f7df1e;
+      }
+      .enroll-button {
+        margin-top: 30px;
+        padding: 15px 25px;
+        background-color: #4fc3f7;
+        border: none;
+        border-radius: 5px;
+        color: #121212;
+        font-weight: bold;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .enroll-button:hover {
+        background-color: #039be5;
+      }
+      .footer {
+        background-color: 1f1f1f;
+        color: #888;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+      }
+      .course-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+        border: 3px solid #4fc3f7;
+      }
+
+      .course-image.js {
+        border-color: f7df1e;
+      }
