@@ -106,6 +106,10 @@ form{
     font-size: 16px;
 }
 
+.btn a{
+    text-decoration: none;
+}
+
 .container p{
     font-size: 14.5px;
     margin: 15px 0;
